@@ -14,10 +14,8 @@
     }
 </script>
 
-<DIV >
 		<input width="50%" class="center" bind:value={newItem} type="text" placeholder="Insertar item">
 		<button class="button" on:click={addToList}>+</button>
-</DIV
 
 <br/>
 {#each todoList as item, index}
